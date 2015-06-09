@@ -1,0 +1,1 @@
+The program attempted to access the shoes variable before it was defined or outside of the scope in which it was defined.
