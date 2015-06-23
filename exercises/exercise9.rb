@@ -1,0 +1,26 @@
+# suppose you have a hash:
+
+h = {a:1, b:2, c:3, d:4}
+
+# 1. get the value of key ':b'
+
+
+h[:b]
+
+# 2. add to this hash the key:value pair '{e:5}'
+
+h[:e] = 5
+
+# 3. remove all key:value pairs whose value is less than 3.5
+
+h.each {|k,v| h.delete(k) if v < 3.5}
+
+
+
+# or
+
+h.delete_if {|k,v| v < 3.5}
+
+
+
+
